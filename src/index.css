@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.85;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.555rem;
+  padding-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.755rem;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.35s ease 0s;
+}
+
+a:hover {
+  color: #1e90ff;
+}
+
+.main {
+  max-width: 79rem;
+  margin: 0 auto;
+  padding: 4.5rem 2%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flx-srt {
+  align-items: flex-start;
+}
+
+.half {
+  width: 49%;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+}
+
+/* Header Styles */
+header {
+  padding: 1.667em 2.778em;
+  padding-right: 5em;
+}
+
+header ul li + li {
+  margin-left: 3.111rem;
+}
+
+header ul li a {
+  text-transform: uppercase;
+  font-size: 1.111rem;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+/* End Header Styles */
+
+/* Mainstage Styles */
+.mainstage {
+  min-height: 50.722rem;
+  max-height: 50.722rem;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+}
+
+.mainstage > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mainstage .info {
+  position: relative;
+  text-align: center;
+  padding-bottom: 7em;
+}
+
+.mainstage h1 {
+  padding-bottom: 0.5em;
+}
+
+.mainstage h2 {
+  padding-bottom: 1.5em;
+  text-transform: capitalize;
+}
+
+.mainstage .input-con {
+  position: relative;
+}
+
+.mainstage input {
+  width: 40rem;
+  padding-top: 1.322rem;
+  padding-bottom: 1.322rem;
+  padding-left: 1.333rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  color: #000;
+  background-color: #ffffff;
+  border: 0.04em solid black;
+}
+
+.mainstage .input-con img {
+  position: absolute;
+  right: 1.1em;
+  top: 50%;
+  transform: translateY(-55%);
+}
+/* End Mainstage Styles */
+
+/* Ctas Styles */
+.ctas {
+  padding: 4.5rem 0;
+  background-color: #d8d8d8;
+}
+
+.ctas ul {
+  max-width: 79rem;
+  margin: 0 auto;
+  text-align: center;
+  align-items: flex-start;
+}
+
+.ctas ul strong {
+  font-size: 1.3rem;
+}
+
+.ctas ul p {
+  line-height: 1.8;
+}
+/* End Ctas Styles */
+
+/* Footer Styles */
+footer ul {
+  margin: 0;
+}
+
+footer ul li + li {
+  margin-left: 3.111rem;
+}
+
+footer ul li a {
+  text-transform: uppercase;
+  font-size: 1.111rem;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+/* End Footer Styles */
+
+/* Hotel Nav Styles */
+
+.hotel-con h1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1.9em;
+}
+
+.hotel-con .drop {
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel-con .drop span,
+.hotel-con .room-price span {
+  display: block;
+  margin-bottom: 0.3em;
+  letter-spacing: 0.1em;
+}
+
+.hotel-con input,
+.hotel-con select {
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid black;
+  padding: 0.3em 0.5em;
+}
+
+.hotel-con .room-price select {
+  width: 10em;
+}
+
+.hotel-con .room-price select + select {
+  margin-left: 1em;
+}
+
+.hotel-con .advance-menu span {
+  width: 1em;
+  height: 1px;
+  background-color: #000;
+  display: block;
+}
+
+.hotel-con .advance-menu {
+  margin-left: 0.6em;
+  cursor: pointer;
+}
+
+.hotel-con .advance-menu span + span {
+  margin-top: 0.25em;
+}
+/* End Hotel Nav Styles */
+
+/* Hotel Styles */
+
+.hotel-main {
+  padding-top: 2em;
+}
+
+.hotel-block {
+  width: calc(25% - 2em);
+  overflow: hidden;
+  position: relative;
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.hotel-block .price {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.hotel-block .price em {
+  font-style: normal;
+  letter-spacing: 0.2em;
+}
+
+.hotel-block .price span {
+  display: block;
+  font-size: 0.85rem;
+}
+
+.hotel-block img {
+  width: 100%;
+  display: block;
+}
+
+.hotel-block strong {
+  background-color: #c4c4c4;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0.5em 0;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+}
+/* End Hotel Styles */
+
+/* About Us */
+.about img {
+  width: 40%;
+}
+
+.about .content {
+  width: 55%;
+}
+
+/* End About Us */
